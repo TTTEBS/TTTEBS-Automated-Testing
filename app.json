@@ -1,0 +1,62 @@
+{
+  "id": "6fcae683-d062-4864-ae65-0311e0741f03",
+  "name": "Automated Testing",
+  "publisher": "Default publisher",
+  "version": "1.0.0.0",
+  "brief": "TTTEBS Testing",
+  "description": "",
+  "privacyStatement": "",
+  "EULA": "",
+  "help": "",
+  "url": "http://telosteam.dk",
+  "logo": "./logo/TTLogo.JPG",
+  "dependencies": [
+    {
+      "appId": "63ca2fa4-4f03-4f2b-a480-172fef340d3f",
+      "publisher": "Microsoft",
+      "name": "System Application",
+      "version": "1.0.0.0"
+    },
+    {
+      "appId": "437dbf0e-84ff-417a-965d-ed2bb9650972",
+      "publisher": "Microsoft",
+      "name": "Base Application",
+      "version": "15.0.0.0"
+    },
+    {
+      "appId": "dd0be2ea-f733-4d65-bb34-a28f4624fb14",
+      "publisher": "Microsoft",
+      "name": "Library Assert",
+      "version": "15.0.0.0"
+    },
+    {
+      "appId": "e7320ebb-08b3-4406-b1ec-b4927d3e280b",
+      "publisher": "Microsoft",
+      "name": "Any",
+      "version": "15.0.0.0"
+    },
+    {
+      "appId": "9856ae4f-d1a7-46ef-89bb-6ef056398228",
+      "publisher": "Microsoft",
+      "name": "System Application Test Library",
+      "version": "15.0.0.0"
+    },
+    {
+      "appId": "5d86850b-0d76-4eca-bd7b-951ad998e997",
+      "publisher": "Microsoft",
+       "name": "Tests-TestLibraries",
+       "version": "15.0.0.0"
+    }
+  ],
+  "screenshots": [],
+  "platform": "13.0.0.0",
+  "idRanges": [
+    {
+      "from": 50140,
+      "to": 50249
+    }
+  ],
+  "contextSensitiveHelpUrl": "https://ALProject9.com/help/",
+  "showMyCode": true,
+  "runtime": "4.0"
+}

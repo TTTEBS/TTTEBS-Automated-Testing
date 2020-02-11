@@ -1,0 +1,55 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "al",
+            "request": "launch",
+            "name": "bcsandbox",
+            "server": "http://bcsandbox",
+            "serverInstance": "BC",
+            "authentication": "Windows",
+            "startupObjectId": 130401,
+            "startupObjectType": "Page",
+            "breakOnError": true,
+            "launchBrowser": true,
+            "enableLongRunningSqlStatements": true,
+            "enableSqlInformationDebugger": true,
+            "schemaUpdateMode": "Recreate"  // TTTEBS
+        },
+        {
+            "type": "al",
+            "request": "launch",
+            "name": "LOCAL-BC15",
+            "server": "http://localhost:15049",
+            "serverInstance": "BC15",
+            "authentication": "Windows",
+            "startupObjectId": 50140,
+            "startupObjectType": "Page",
+            "breakOnError": true,
+            "launchBrowser": true,
+            "enableLongRunningSqlStatements": true,
+            "enableSqlInformationDebugger": true,
+            "schemaUpdateMode": "Recreate"  // TTTEBS
+        }
+    ]
+}
+// {
+//     "version": "0.2.0",
+//     "configurations": [
+//         {
+//             "type": "al",
+//             "request": "launch",
+//             "name": "bcsandbox",
+//             "server": "http://bcsandbox",
+//             "serverInstance": "BC",
+//             "authentication": "Windows",
+//             "startupObjectId": 50140,
+//             "startupObjectType": "Page",
+//             "breakOnError": true,
+//             "launchBrowser": true,
+//             "enableLongRunningSqlStatements": true,
+//             "enableSqlInformationDebugger": true,
+//             "schemaUpdateMode": "Recreate"  // TTTEBS
+//         }
+//     ]
+// }
